@@ -1,5 +1,6 @@
 // Your code here
-function saturdayFun(){
-  let s= "roller-skate"
-  return "This Saturday, I want to "+ "+!"
+function saturdayFun(activity){
+  let s= "roller-skate";
+  s= activity;
+  return "This Saturday, I want to "+s+"!";
 }
